@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F7F9FA"
+        app:cardElevation="5dp"
+       app:cardCornerRadius="15dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/image_for_total_click"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/socialmedia"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:id="@+id/total_link_name"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sample link name"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:id="@+id/total_link_count"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="225"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:paddingEnd="20dp"
+                            android:paddingStart="5dp"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+                        <TextView
+                            android:id="@+id/total_link_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="22-Aug-2024"
+                            android:textColor="#ABACAC"
+                            android:textSize="15sp"
+
+                            />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Clicks"
+                            android:textColor="#ABACAC"
+                            android:textSize="15sp"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:paddingEnd="20dp"
+                            android:paddingStart="5dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:background="#DFEEFA"
+
+                >
+                <TextView
+                    android:id="@+id/top_link_cp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="linkkkkkkkkkkkkkkkkkkkkk"
+                    android:textSize="15sp"
+                    android:textColor="#2196F3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/coppyicon"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+
+</RelativeLayout>

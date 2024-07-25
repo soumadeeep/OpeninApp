@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/recycleView_li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:fitsSystemWindows="true"
+            android:padding="2dp"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/viewMoreButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/recycleView_li"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/squar_background"
+        android:gravity="center"
+        android:text="View More"
+
+
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</RelativeLayout>

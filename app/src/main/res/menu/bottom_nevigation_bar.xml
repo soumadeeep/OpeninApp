@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/link"
+        android:icon="@drawable/hyperlink"
+        android:title="Links" />
+    <item
+        android:id="@+id/courses"
+        android:icon="@drawable/homework"
+        android:title="courses" />
+    <item
+        android:title=""
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/campaigns"
+        android:icon="@drawable/advertising"
+        android:title="campaigns" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/person"
+        android:title="profile" />
+</menu>
