@@ -86,7 +86,7 @@ class ToplinkFrag : Fragment() {
     private fun toggleItemList() {
         showFullList = !showFullList
         updateDisplayedList()
-        viewMoreButton.text = if (showFullList) "View Less" else "View More"
+        viewMoreButton.text = if (showFullList) "View Less" else "View All Links"
     }
 
 }

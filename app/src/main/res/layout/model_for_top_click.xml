@@ -31,6 +31,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/socialmedia"
+                    android:layout_margin="15dp"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -103,7 +104,8 @@
                 android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp"
-                android:background="#DFEEFA"
+                android:background="@drawable/dotedbox"
+
 
                 >
                 <TextView

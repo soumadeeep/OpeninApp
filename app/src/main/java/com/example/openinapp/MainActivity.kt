@@ -40,33 +40,10 @@ class MainActivity : AppCompatActivity() {
         val buttonOne: TextView = findViewById(R.id.toplinks)
         val buttonTwo: TextView = findViewById(R.id.recentlinks)
         buttonOne.setOnClickListener {
-            buttonOne.setBackgroundColor(
-                ContextCompat.getColor(
-                    this,
-                    R.color.button_background_color
-                )
-            )
-            buttonTwo.setBackgroundColor(
-                ContextCompat.getColor(
-                    this,
-                    R.color.button_second_background_color
-                )
-            )
            replaceFragment(ToplinkFrag())
         }
         buttonTwo.setOnClickListener {
-            buttonOne.setBackgroundColor(
-                ContextCompat.getColor(
-                    this,
-                    R.color.button_second_background_color
-                )
-            )
-            buttonTwo.setBackgroundColor(
-                ContextCompat.getColor(
-                    this,
-                    R.color.button_background_color
-                )
-            )
+
           replaceFragment(RecentLinkFrag())
         }
         setupChart()
